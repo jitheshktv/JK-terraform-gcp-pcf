@@ -10,21 +10,6 @@ variable "region" {
   type = "string"
 }
 
-variable "zone-1" {
-  type = "string"
-  default="us-central1-a"
-}
-
-variable "zone-2" {
-  type = "string"
-  default="us-central1-b"
-}
-
-variable "zone-3" {
-  type = "string"
-  default="us-central1-c"
-}
-
 variable "buckets_location" {
   type    = "string"
   default = "US"

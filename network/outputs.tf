@@ -14,18 +14,6 @@ output "azs" {
   value = "${var.zones}"
 }
 
-output "zone-1" {
-  value = "${var.zone-1}"
-}
-
-output "zone-2" {
-  value = "${var.zone-2}"
-}
-
-output "zone-3" {
-  value = "${var.zone-3}"
-}
-
 output "network_name" {
   value = "${google_compute_network.pcf-network.name}"
 }
