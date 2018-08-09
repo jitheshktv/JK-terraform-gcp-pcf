@@ -1,1 +1,3 @@
 service_account_key.tfvars
+*.tfstate
+*.tfstate.*
